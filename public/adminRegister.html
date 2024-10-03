@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Registration</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container mt-5">
+        <h2>Admin Registration</h2>
+        <form id="registerForm">
+            <div class="form-group">
+                <label for="username">Username</label>
+                <input type="text" class="form-control" id="username" required>
+                <div class="invalid-feedback">Please provide a username.</div>
+            </div>
+            <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" class="form-control" id="password" required>
+                <div class="invalid-feedback">Please provide a password.</div>
+            </div>
+            <button type="submit" class="btn btn-primary" id="submitBtn">Register</button>
+            <div id="loading" style="display:none;">Registering...</div>
+        </form>
+    </div>
+
+    <script>
+       document.getElementById('registerForm').addEventListener('submit', async (e) => {
+            e.preventDefault();
+
+            const username = document.getElementById('username').value.trim();
+            const password = document.getElementById('password').value.trim();
+            const submitBtn = document.getElementById('submitBtn');
+            const loading = document.getElementById('loading');
+            
+            console.log(username, password);
+            // Basic client-side validation
+            let valid = true;
+            if (!username) {
+                document.getElementById('username').classList.add('is-invalid');
+                valid = false;
+            } else {
+                document.getElementById('username').classList.remove('is-invalid');
+            }
+            if (!password) {
+                document.getElementById('password').classList.add('is-invalid');
+                valid = false;
+            } else {
+                document.getElementById('password').classList.remove('is-invalid');
+            }
+            
+            if (!valid) return;
+
+            // Show loading indicator and disable button
+            submitBtn.disabled = true;
+            loading.style.display = 'block';
+
+            try {
+                const response = await fetch('http://localhost:5000/api/admin/register', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({ username, password })
+                });
+
+                if (!response.ok) {
+                    throw new Error('Failed to register admin');
+                }
+
+                alert('Admin registered successfully');
+                window.location.href = '/admin/login';
+            } catch (error) {
+                console.error('Error registering admin:', error);
+                alert('Error registering admin');
+            } finally {
+                // Hide loading indicator and re-enable button
+                submitBtn.disabled = false;
+                loading.style.display = 'none';
+            }
+        });
+    </script>
+</body>
+</html>

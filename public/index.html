@@ -1,0 +1,1405 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Final</title>
+  <!-- Lora Font links  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <!-- Bootstrap links -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-------------roadmap animation cdn --------->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/skrollr/0.6.30/skrollr.min.js"></script>
+
+  <!-- css links  -->
+  <!-- <link rel="stylesheet" href="./css/navbar.css"> -->
+  <link rel="stylesheet" href="./css/final.css">
+  <link rel="stylesheet" href="./css/final-responsive.css">
+  <!-- <link rel="stylesheet" href="./css/style.css"> -->
+</head>
+
+<body>
+  <!-- Navbar Header -->
+  <header>
+    <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <!-- Logo -->
+        <a class="navbar-brand" href="#">
+          <img src="./img/gg logo FINAL.png" alt="Logo" style="height: 65px; width: 150px;">
+        </a>
+
+        <!-- Toggle button for mobile view -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Navbar links -->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+            <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="courses.html" id="navbarDropdown" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">Courses</a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="./Basic-Forex-Foundation .html">Foundation Program</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="./Elite-forex-mastery.html">Elite Program</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="./Master-trader-program.html">Exclusive</a></li>
+              </ul>
+            </li>
+            <!-- <li class="nav-item"><a class="nav-link" href="blogs.html">Blogs</a></li> -->
+            <li class="nav-item"><a class="nav-link" href="market-watch.html">Market Watch</a></li>
+            <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+            <li class="nav-item"><a class="nav-link" href="form.html">Form</a></li>
+          </ul>
+
+          <!-- Contact Us Button -->
+          <div class="d-flex align-items-center">
+            <a href="contact.html" class="contact-btn tm-button">Contact Us</a>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </header>
+  <!-- Navbar Header -->
+
+  <!-- Carousel Start  -->
+  <div id="carouselExample" class="carousel slide carousel-fade" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="img/goldTemplate-imgor-video/ai-generated-8154777.jpg" alt="Image 1">
+        <div class="overlay"></div>
+        <div class="text-content">
+          <h1>The Goal of a Successful Trader is to make the <br> best traders.</h1>
+          <a href="about-us.html" class="tm-button">Read More</a>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="img/goldTemplate-imgor-video/pexels-davidmcbee-730547.jpg" alt="Image 2">
+        <div class="overlay"></div>
+        <div class="text-content">
+          <h1>The Goal of a Successful Trader is to make the <br> best traders.</h1>
+          <a href="about-us.html" class="tm-button">Read More</a>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="img/goldTemplate-imgor-video/pexels-michael-steinberg-95604-366551.jpg" alt="Image 3">
+        <div class="overlay"></div>
+        <div class="text-content">
+          <h1>The Goal of a Successful Trader is to make the <br> best traders.</h1>
+          <a href="about-us.html" class="tm-button">Read More</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Navigation dots -->
+    <!-- <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div> -->
+
+    <!-- Navigation dots -->
+    <ul class="carousel-indicators">
+      <li data-bs-target="#carouselExample" data-bs-slide-to="0" class="active" aria-current="true"
+        aria-label="Slide 1"></li>
+      <li data-bs-target="#carouselExample" data-bs-slide-to="1" aria-label="Slide 2"></li>
+      <li data-bs-target="#carouselExample" data-bs-slide-to="2" aria-label="Slide 3"></li>
+    </ul>
+
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <!-- Carousel End  -->
+
+  <!-- About section  -->
+  <div class="tm-section about-us-area tm-padding-sectionv4 mt-0 mb-0">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="tm-left-full-width">
+            <div class="">
+              <img class="wow fadeInLeft" src="../img/Shubham-img/about-img.jpeg.jpg"
+                alt="about image" style="visibility: visible; animation-name: fadeInLeft;">
+            </div>
+            <div class="d-flex align-items-center bg-white contact-box wow fadeInLeft" data-wow-delay="0.5s"
+              style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInLeft;">
+              <div>
+                <img src="https://sasna-html.vercel.app/sasna/assets/images/others/contact-icon.svg" alt="">
+              </div>
+              <div>
+                <p class="text-bold wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
+                  Get Expert Consultation
+                </p>
+                <p class="contact-box-number text-nowrap ">
+                  Ready to help
+                  <span class="contact-number text-bold fadeInUp">+91 - 7378591464</span>
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- Contact info -->
+        </div>
+        <div class="col-lg-6">
+          <div class="tm-section about-content about-contentv4">
+            <h2 class="title">Welcome to Gold Gladiators</h2>
+            <h6 class="about-sub-textv4">
+              <img src="https://sasna-html.vercel.app/sasna/assets/images/others/Icon.png" alt="icon of text">
+              <span class="about-text">
+                Lorem ipsum dolor sit amet consectetur aicing etfh consectetur.
+              </span>
+            </h6>
+            <div class="about-description">
+              <p>
+                Basically, gold gladiators is a educational platform and this academy is build by traders to develop or
+                train good trader in forex industry. Main moto of academy is to provide valuable knowledge as well as
+                help each and everyone to achieve financial freedom in their life.
+              </p>
+              <ul class="stylish-list">
+                <li>
+                  <i class="far fa-check-circle"></i>MENTORSHIP PROGRAMS
+                </li>
+
+                <li>
+                  <i class="far fa-check-circle"></i>SIMULATION SESSIONS AND BACKTESTING SESSONS ON EVERY WEEKEND
+                </li>
+
+                <li>
+                  <i class="far fa-check-circle"></i>TRADE DISCUSSION ON TELEGRAM AND DISCORD
+                </li>
+
+                <li>
+                  <i class="far fa-check-circle"></i>24*7 SUPPORT
+                </li>
+
+              </ul>
+              <a href="about-us.html" class="tm-button">Read More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- About section end  -->
+
+  <!-- Road map start -->
+  <div class="background-image"></div>
+  <div class="overlay-road"></div>
+  <!-- <div class="content" style="height: 50vh;">
+  <h1 class="font">Lora text</h1>
+    <h1 style="color: #add8e6;">Road Map</h1>
+</div> -->
+  <div class="full" id="timeline">
+    <!-- <p
+    style="text-align: center; font-size: 26px; color: #fff; text-shadow: -3px 3px 1px rgba(0, 0, 0, 0.5);padding-top: 30px;">
+    <u>My story</u>
+  </p> -->
+    <br>
+    <br>
+    <br>
+    <div class="timeline">
+      <div class="fakePuce puceImg" id="puceProfile" data-anchor-target="#puceTwo"
+        data--130-bottom="width: 65px; height: 65px; top: 0px; left: 0px;"
+        data--140-bottom="top: 0px; left: 0px; width: 95px; height: 95px;">
+      </div>
+      <div class="rotateOne" style="top: 165px;" class="full">
+        <div id="bar" data-anchor-target="#puceTwo" data--140-bottom="width: 0%;" data--200-bottom="width: 100%;">
+        </div>
+      </div>
+      <img class="puce puceLeft puceOne" data--180-bottom="opacity: 1;" data--200-bottom="opacity: 0;" id="puceOne"><img
+        class="puce puceLeft puceOne" data--180-bottom="opacity: 0;" data--200-bottom="opacity: 1;">
+      <p style="opacity: 1;" class="descOne" data--180-bottom="opacity: 0;" data--200-bottom="opacity: 1;">
+        Hi ! It's me, <b>Jérémie Gaffarel</b>
+      </p>
+      <div class="fakePuce puceImg" id="pucePt2" data-anchor-target="#puceTwo"
+        data--180-bottom="width: 65px; height: 65px;top: 250px; right: 0px;"
+        data--200-bottom="width: 95px; height: 95px; top: 250px; right: 0px;">
+      </div>
+      <div class="rotateTwo" style="top: 408px;" class="full">
+        <div id="bar" data-anchor-target="#puceThree" data--140-bottom="width: 0%;" data--200-bottom="width: 100%;">
+        </div>
+      </div>
+      <img class="puce puceRight puceTwo" data--180-bottom="opacity: 1;" data--200-bottom="opacity: 0;"
+        id="puceTwo"><img style="opacity: 1;" class="puce puceRight puceTwo" data--180-bottom="opacity: 0;"
+        data--200-bottom="opacity: 1;">
+      <p style="opacity: 1;" class="descTwo" data--180-bottom="opacity: 0;" data--200-bottom="opacity: 1;">
+        "Before diving into trading, take a moment to define what you want to achieve. Are you looking to build wealth,
+        achieve financial independence, or simply explore a new interest? Setting clear and realistic goals will give
+        you direction and motivation. Remember, every step you take towards your goals is a step forward."
+      </p>
+      <div class="fakePuce puceImg" id="puceHtml" data-anchor-target="#puceThree"
+        data--180-bottom="width: 65px; height: 65px; top: 500px; left: 0px;" data--200-bottom="
+    width: 95px; height: 95px; top: 500px; left: 0px;">
+      </div>
+      <div class="rotateOne" style="top: 665px;" class="full">
+        <div id="bar" data-anchor-target="#puceFour" data--140-bottom="width: 0%;" data--200-bottom="width: 100%;">
+        </div>
+      </div>
+      <img class="puce puceLeft puceThree" data--180-bottom="opacity: 1;" data--200-bottom="opacity: 0;"
+        id="puceThree"><img style="opacity: 1;" class="puce puceLeft puceThree" data--180-bottom="opacity: 0;"
+        data--200-bottom="opacity: 1;">
+      <p style="opacity: 1;" class="descThree" data--180-bottom="opacity: 0;" data--200-bottom="opacity: 1;">
+        "Trading is a skill that takes time to master. It's normal to face challenges and make mistakes along the way.
+        View these experiences as valuable lessons that will help you grow. Stay curious, keep learning, and don't be
+        discouraged by setbacks. Each mistake brings you one step closer to becoming a better trader."
+      </p>
+      <div class="fakePuce puceImg" id="puceCss" data-anchor-target="#puceFour"
+        data--180-bottom="width: 65px; height: 65px; top: 750px; right: 0px;"
+        data--200-bottom="width: 95px; height: 95px; top: 750px; right: 0px;">
+      </div>
+      <div class="rotateTwo" style="top: 905px;" class="full">
+        <div id="bar" data-anchor-target="#puceFive" data--140-bottom="width: 0%;" data--200-bottom="width: 100%;">
+        </div>
+      </div>
+      <img class="puce puceRight puceFour" data--180-bottom="opacity: 1;" data--200-bottom="opacity: 0;"
+        id="puceFour"><img style="opacity: 1;" class="puce puceRight puceFour" data--180-bottom="opacity: 0;"
+        data--200-bottom="opacity: 1;">
+      <p style="opacity: 1;" class="descFour" data--180-bottom="opacity: 0;" data--200-bottom="opacity: 1;">
+        "A well-defined trading strategy is your roadmap to success. Start with simple strategies and gradually refine
+        them as you gain experience. Focus on creating a plan that suits your risk tolerance and trading style.
+        Consistency and discipline in following your strategy will build your confidence and improve your trading
+        skills."
+      </p>
+      <div class="fakePuce puceImg" id="puce4t5" data-anchor-target="#puceFive"
+        data--180-bottom="width: 65px; height: 65px; top: 1000px; left: 0px;"
+        data--200-bottom="width: 95px; height: 95px; top: 1000px; left: 0px;">
+      </div>
+      <div class="rotateThree" style="top: 1155px; width: 60%; left: 0;" class="full">
+        <div id="bar" data-anchor-target="#puceSix" data--140-bottom="width: 0%;"
+          data--200-bottom="width: 100%;">
+        </div>
+      </div>
+      <img class="puce puceLeft puceFive" data--180-bottom="opacity: 1;" data--200-bottom="opacity: 0;"
+        id="puceFive"><img style="opacity: 1;" class="puce puceLeft puceFour" data--180-bottom="opacity: 0;"
+        data--200-bottom="opacity: 1;">
+      <p style="opacity: 1;" class="descFive" data--180-bottom="opacity: 0;" data--200-bottom="opacity: 1;">
+        "Patience is a key virtue in trading. Markets can be unpredictable, and sometimes the best action is to wait for
+        the right opportunities. Stick to your strategy, avoid impulsive decisions, and stay disciplined. Remember,
+        successful trading is a marathon, not a sprint."
+      </p>
+      <div class="fakePuce puceImg" id="pucePhp" data-anchor-target="#puceSix"
+        data--180-bottom="width: 65px; height: 65px; top: 1250px; right: 265px;"
+        data--200-bottom="width: 95px; height: 95px; top: 1250px; right: 265px;">
+      </div>
+      <!-- <div class="rotateTwo" style="top: 1400px;" class="full">
+        <div id="bar" style="width: 0% !important;" data-anchor-target="#puceSeven" data--140-bottom="width: 0%;"
+          data--200-bottom="width: 100%;">
+        </div>
+      </div> -->
+      <img class="puce puceRight puceSix" data--180-bottom="opacity: 1;" data--200-bottom="opacity: 0;"
+        id="puceSix"><img style="opacity: 1;" class="puce puceRight puceSix" data--180-bottom="opacity: 0;"
+        data--200-bottom="opacity: 1;">
+      <!-- <p style="opacity: 1;" class="descSix" data--180-bottom="opacity: 0;" data--200-bottom="opacity: 1;">
+        To do this network site,<br>I had to learn my first programming language, the <b>PHP</b>.
+      </p> -->
+      <!-- <div class="fakePuce puceImg" id="puceJs" data-anchor-target="#puceSeven"
+        data--180-bottom="width: 65px; height: 65px; left: 0; top: 1500px;"
+        data--200-bottom="width: 95px; height: 95px; left: 0px; top: 1500px;">
+      </div> -->
+      <!-- <div class="rotateOne" style="top: 1650px;" class="full">
+        <div id="bar" style="width: 0% !important;" data-anchor-target="#puceHeight" data--140-bottom="width: 0%;"
+          data--200-bottom="width: 100%;">
+        </div>
+      </div> -->
+      <img style="opacity: 1;" class="puce puceSeven puceLeft" data--180-bottom="opacity: 1;"
+        data--200-bottom="opacity: 0;" id="puceSeven">
+      <img class="puce puceSeven puceLeft" data--180-bottom="opacity: 0;" data--200-bottom="opacity: 1;">
+      <!-- <p class="descSeven" data--180-bottom="opacity: 0;" data--200-bottom="opacity: 1;">
+        Then, to anime some elements of my site,<br>I was learning the <b>javascript</b>.
+      </p>
+      <div class="fakePuce puceImg" id="puceEnvr" data-anchor-target="#puceHeight"
+        data--180-bottom="width: 65px; height: 65px; top: 1750px; right: 0px;"
+        data--200-bottom="width: 95px; height: 95px; top: 1750px; right: 0px;">
+      </div> -->
+      <!-- <div class="rotateTwo" style="top: 1900px;" class="full">
+        <div id="bar" style="width: 0% !important" data-anchor-target="#puceNine" data--140-bottom="width: 0%;"
+          data--200-bottom="width: 100%;">
+        </div>
+      </div> -->
+      <img style="opacity: 1;" class="puce puceHeight puceRight" data--180-bottom="opacity: 1;"
+        data--200-bottom="opacity: 0;" id="puceHeight">
+      <img class="puce puceHeight puceRight" data--180-bottom="opacity: 0;" data--200-bottom="opacity: 1;">
+      <!-- <p class="descHeight" data--180-bottom="opacity: 0;" data--200-bottom="opacity: 1;">
+        Next, I make my third website, "<b>Environment</b>", a site which speak of... environment !<br>Link : <a
+          href="https://environnement.renseign.com">https://environnement.renseign.com</a>
+      </p> -->
+      <!-- <div class="fakePuce puceImg" id="puceCs" data-anchor-target="#puceNine"
+        data--180-bottom="width: 65px; height: 65px; left: 10px; top: 1000px;"
+        data--200-bottom="width: 95px; height: 95px; left: 10px; top: 1000px;">
+      </div> -->
+      <!-- <div class="rotateThree" style="top: 2165px; width: 60%; left: 0;" class="full">
+        <div id="bar" style="width: 0% !important" data-anchor-target="#puceTen" data--140-bottom="width: 0%;"
+          data--200-bottom="width: 100%;">
+        </div>
+      </div> -->
+      <img style="opacity: 1;" class="puce puceLeft puceNine" data--180-bottom="opacity: 1;"
+        data--200-bottom="opacity: 0;" id="puceNine">
+      <img class="puce puceLeft puceNine" data--180-bottom="opacity: 0;" data--200-bottom="opacity: 1;">
+      <!-- <p class="descNine" data--180-bottom="opacity: 0;" data--200-bottom="opacity: 1;">
+        Finally, I learn a second programming language called "<b>C#</b>" for creating a Web Search Engine open source.
+      </p>
+      <div class="fakePuce puceImg" id="puceNext" data-anchor-target="#puceTen"
+        data--180-bottom="width: 65px; height: 65px; bottom: 0px; left: 250px;"
+        data--200-bottom="width: 95px; height: 95px; bottom: 0px; left: 250px;">
+      </div> -->
+      <img style="opacity: 1;" class="puce puceCenter puceTen" data--180-bottom="opacity: 1;"
+        data--200-bottom="opacity: 0;" id="puceTen">
+      <img class="puce puceCenter puceTen" data--180-bottom="opacity: 0;" data--200-bottom="opacity: 1;">
+    </div>
+    <br>
+    <br>
+    <!-- <div style="text-align: center;">
+      <div style="color: #fff; text-shadow: -3px 3px 1px rgba(0, 0, 0, 0.5);" data--140-bottom="opacity: 0;"
+        data--160-bottom="opacity: 1;">
+        And now, if you would like<br>I make your website, just <br><a href="LINK" id="order">Order here</a>
+      </div>
+    </div> -->
+    <br>
+  </div>
+
+  <!-- Road map End  -->
+
+  <!-- why choose us  -->
+  <div class="tm-section whychoose tm-padding-sectionv4 mt-0 mb-0">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="tm-section whychoose-contentv4">
+            <h2 class="title">Why Choose Us</h2>
+            <p>
+              Lorem ipsum dolor sit amet, in quodsi vulputat pro. Ius
+              illum vocent critatem cule dicta iriure at phaedrum.
+            </p>
+
+            <!-- WHY CHOOSE US SINGLE BOX -->
+            <div class="tm-section d-flex align-items-start whychoose-box">
+              <div>
+                <img src="https://sasna-html.vercel.app/sasna/assets/images/others/whychooseus.svg" alt="">
+              </div>
+              <div>
+                <h5 class="">Integrity</h5>
+                <p>
+                  Gold gladiators personal journal for trading record
+                </p>
+              </div>
+            </div>
+            <!-- //  WHY CHOOSE US SINGLE BOX -->
+
+            <!-- WHY CHOOSE US SINGLE BOX -->
+            <div class="tm-section d-flex align-items-start whychoose-box">
+              <div>
+                <img src="https://sasna-html.vercel.app/sasna/assets/images/others/whychooseus1.svg" alt="">
+              </div>
+              <div>
+                <h5 class="">Quality</h5>
+                <p>
+                  Playbook of our A+ setups and Bootcamps
+                </p>
+              </div>
+            </div>
+            <!-- //  WHY CHOOSE US SINGLE BOX -->
+
+            <!-- WHY CHOOSE US SINGLE BOX -->
+            <div class="tm-section d-flex align-items-start whychoose-box">
+              <div>
+                <img class="img-fluid" src="https://sasna-html.vercel.app/sasna/assets/images/others/whychooseus2.svg"
+                  alt="">
+              </div>
+              <div>
+                <h5 class="">Result</h5>
+                <p>
+                  <!-- Lorem ipsum dolor sit amet, quodsi vulputat pro. Ius
+                Lorem ipsum dolor sit amet, quodsi vulputat pro. Ius -->
+                  New York session live stream with community
+                </p>
+              </div>
+            </div>
+            <!-- //  WHY CHOOSE US SINGLE BOX -->
+          </div>
+        </div>
+
+        <div class="col-lg-6">
+          <div class="about-image">
+            <img class="" src="../img/Shubham-img/why-choose-us.jpg"
+              alt="Why Choose Us image">
+            <div class="tm-videobutton">
+              <a href="https://www.youtube.com/watch?v=Sv511KEiIJQ" target="_blank" class="video-circle-btn">
+                <i class="fas fa-play"></i>
+              </a>
+            </div>
+
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- why choose us  -->
+
+
+  <!-- services Program  -->
+  <div class="tm-section-bg services-area-light tm-padding-sectionv4 mt-0"
+    style="background-color: #f4f6ff; background-image: url('../img/Shubham-img/service-background-1.jpg'); background-size: cover; background-position: center;">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 col-md-12 col-12">
+          <div class="service-area-title">
+            <div class="tm-section services-area-header">
+              <h2 class="title">Services We Provide</h2>
+              <p class="text-white">
+                Lorem ipsum dolor sit amet, in quodsi vulputat pro. Ius
+                illum vocent critatem cule dicta iriure at phaedrum.
+              </p>
+            </div>
+
+            <div>
+              <a href="services.html" class="tm-button wow fadeInUp" data-wow-delay="0.2s"
+                style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">View More <i
+                  class="fas fa-arrow-right"></i> <b></b></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row service-row">
+        <!-- Single Service -->
+        <div class="col-lg-6 col-md-6 col-sm-12 col-12 wow fadeInUp tm-item-single mr-30"
+          style="visibility: visible; animation-name: fadeInUp;">
+          <div class="tm-service">
+            <div class="tm-service-imagebox">
+              <div class="d-flex justify-content-between w-100 align-items-start">
+                <div class="tm-service-iconv4 d-flex justify-content-center align-items-center">
+
+                  <img src="./img/analysis.png" alt="" style="height: 70px; width: 70px;">
+
+                </div>
+                <div>
+                  <img src="https://sasna-html.vercel.app/sasna/assets/images/services/serviceC1.svg" alt="">
+                </div>
+              </div>
+            </div>
+            <div>
+              <h3 class="tm-service-linkv4">
+                <a class="tm-service-link" href="service-details.html">MENTORSHIP PROGRAMS</a>
+              </h3>
+
+            </div>
+            <!-- <a class="tm-service-nav" href="service-details.html">Read More <i class="fas fa-arrow-right"></i></a> -->
+          </div>
+        </div>
+        <!--// Single Service -->
+
+        <!-- Single Service -->
+        <div class="col-lg-6 col-md-6 col-sm-12 col-12 wow fadeInUp tm-item-single mr-30"
+          style="visibility: visible; animation-name: fadeInUp;">
+          <div class="tm-service">
+            <div class="tm-service-imagebox">
+              <div class="d-flex justify-content-between w-100 align-items-start">
+                <div class="tm-service-iconv4 d-flex justify-content-center align-items-center">
+                  <img src="./img/statistics.png" alt="" style="height: 70px; width: 70px; ">
+                </div>
+                <div>
+                  <img src="https://sasna-html.vercel.app/sasna/assets/images/services/serviceC2.svg" alt="">
+                </div>
+              </div>
+            </div>
+            <div>
+              <h3 class="tm-service-linkv4">
+                <a class="tm-service-link" href="service-details.html">SIMULATION SESSIONS AND BACKTESTING SESSONS ON
+                  EVERY WEEKEND </a>
+              </h3>
+            </div>
+            <!-- <a class="tm-service-nav" href="service-details.html">Read More <i class="fas fa-arrow-right"></i></a> -->
+          </div>
+        </div>
+        <!--// Single Service -->
+
+        <!-- Single Service -->
+        <div class="col-lg-6 col-md-6 col-sm-12 col-12 wow fadeInUp tm-item-single mr-30"
+          style="visibility: visible; animation-name: fadeInUp;">
+          <div class="tm-service">
+            <div class="tm-service-imagebox">
+              <div class="d-flex justify-content-between w-100 align-items-start">
+                <div class="tm-service-iconv4 d-flex justify-content-center align-items-center">
+                  <img src="./img/chart.jpg" alt="" style="height: 70px; width: 70px;">
+                </div>
+                <div>
+                  <img src="https://sasna-html.vercel.app/sasna/assets/images/services/serviceC3.svg" alt="">
+                </div>
+              </div>
+            </div>
+            <div>
+              <h3 class="tm-service-linkv4">
+                <a class="tm-service-link" href="service-details.html">TRADE DISCUSSION ON TELEGRAM AND DISCORD </a>
+              </h3>
+            </div>
+            <!-- <a class="tm-service-nav" href="service-details.html">Read More <i class="fas fa-arrow-right"></i></a> -->
+          </div>
+        </div>
+        <!--// Single Service -->
+
+        <!-- Single Service -->
+        <div class="col-lg-6 col-md-6 col-sm-6 col-12 wow fadeInUp mr-30 tm-item-single"
+          style="visibility: visible; animation-name: fadeInUp;">
+          <div class="tm-service">
+            <div class="tm-service-imagebox">
+              <div class="d-flex justify-content-between w-100 align-items-start">
+                <div class="tm-service-iconv4 d-flex justify-content-center align-items-center">
+                  <img src="./img/24-7.png" alt="" style="height: 70px; width: 70px;">
+                </div>
+                <div>
+                  <img src="https://sasna-html.vercel.app/sasna/assets/images/services/serviceC4.svg" alt="">
+                </div>
+              </div>
+            </div>
+            <div>
+              <h3 class="tm-service-linkv4">
+                <a class="tm-service-link" href="service-details.html">24*7 SUPPORT </a>
+              </h3>
+            </div>
+            <!-- <a class="tm-service-nav" href="service-details.html">Read More <i class="fas fa-arrow-right"></i></a> -->
+          </div>
+        </div>
+        <!--// Single Service -->
+
+
+      </div>
+    </div>
+  </div>
+  <!-- services program  -->
+
+  <!-- pricing plan section Start -->
+  <section class="px-3" style="padding: 50px 0;">
+    <div class="container price-section">
+      <div class="row">
+        <div class="col-lg-12 col-md-12 col-12">
+          <div class="service-area-title">
+            <div class="tm-section pricing-area-header">
+              <h2 class="title">Our Mentorship Plans </h2>
+              <p>
+                Gold gladiators offers you three types of course.
+                That all are specially designed to take you <br> from an absolute
+                beginner to an advanced profitable trader.
+              </p>
+            </div>
+
+            <div>
+              <a href="services.html" class="tm-button wow fadeInUp" data-wow-delay="0.2s"
+                style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">View More <i
+                  class="fas fa-arrow-right"></i> <b></b></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row g-4 plan">
+        <!-- Basic Forex Foundation Plan -->
+        <div class="col-lg-4 col-md-4">
+          <div class="pricing-plan text-center shadow-sm p-3">
+            <h3>Basic Forex Foundation</h3>
+            <p class="price">$00</p>
+            <ol class="text-start">
+              <li><i class="far fa-check-circle"></i>Basics of Forex</li>
+              <li><i class="far fa-check-circle"></i> Technical and Fundamental Analysis</li>
+              <li><i class="far fa-check-circle"></i> 20 Live Sessions (2-3 hours each)</li>
+              <li><i class="far fa-check-circle"></i> Recording of Every Session</li>
+              <li><i class="far fa-check-circle"></i> Special Trading Strategy</li>
+              <li><i class="far fa-check-circle"></i> Access to Telegram Channel</li>
+              <li><i class="far fa-check-circle"></i> $50 Free Deposit on MT5</li>
+              <li><i class="far fa-check-circle"></i> 24/7 Support on Call</li>
+            </ol>
+            <a href="#" class="tm-button mt-3 w-100">Sign Up Now</a>
+          </div>
+        </div>
+        <!-- Elite Forex Mastery Plan -->
+        <div class="col-lg-4 col-md-4">
+          <div class="pricing-plan text-center shadow-sm p-3">
+            <h3>Elite Forex Mastery</h3>
+            <p class="price">$000</p>
+            <ol class="text-start">
+              <li><i class="far fa-check-circle"></i> 15 Sessions Total</li>
+              <li><i class="far fa-check-circle"></i> Limited Seats (15 Students per Batch)</li>
+              <li><i class="far fa-check-circle"></i> Daily 3-4 Hours of Discussion</li>
+              <li><i class="far fa-check-circle"></i> Session Recordings</li>
+              <li><i class="far fa-check-circle"></i> Private Zoom Call Access</li>
+              <li><i class="far fa-check-circle"></i> Special Sessions on Risk Management</li>
+              <li><i class="far fa-check-circle"></i> Higher Timeframe Analysis and Setups</li>
+              <li><i class="far fa-check-circle"></i> 24/7 Support</li>
+            </ol>
+            <a href="#" class="tm-button mt-3 w-100">Sign Up Now</a>
+          </div>
+        </div>
+        <!-- Master Trader Program Plan -->
+        <div class="col-lg-4 col-md-4">
+          <div class="pricing-plan text-center shadow-sm p-3">
+            <h3>Master Trader Program</h3>
+            <p class="price">$000</p>
+            <ol class="text-start">
+              <li><i class="far fa-check-circle"></i> All Sessions are 1-on-1</li>
+              <li><i class="far fa-check-circle"></i> 10 Sessions with Recordings</li>
+              <li><i class="far fa-check-circle"></i> Overcoming Trading Losses</li>
+              <li><i class="far fa-check-circle"></i> Roadmap for Consistency</li>
+              <li><i class="far fa-check-circle"></i> Advanced Risk Management</li>
+              <li class="text-nowrap"><i class="far fa-check-circle"></i> Price Action Higher Timeframe Strategy</li>
+              <li><i class="far fa-check-circle"></i> Backtesting Strategies</li>
+              <li><i class="far fa-check-circle"></i> Live Market Zoom Calls</li>
+            </ol>
+            <a href="#" class="tm-button mt-3 w-100">Sign Up Now</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- <img id="colon2" src="https://eiwgew27fhz.exactdn.com/wp-content/themes/puttosaurus/img/quote-right.svg" alt=""> -->
+    </div>
+  </section>
+  <!-- pricing plan section End -->
+
+  <!-- our messinon  -->
+  <div data-bgimage="" class="tm-section mt-0 tm-padding-sectionv4"
+    style="background-image: url(../img/goldTemplate-imgor-video/mission.png);">
+    <div class="container">
+      <div class="row justify-content-center align-items-center">
+        <div class="col-lg-8 col-md-10">
+          <div class="text-center tm-mission" style="height: 200px;">
+            <!-- <h2 class="tm-mission-title">
+            Our Mission is to Ensure your Business &amp; Rich More
+          </h2> -->
+            <!-- <a href="shop.html" class="tm-button">Say Hello!<b style="top: 72.3248px; left: 22.6625px;"></b></a> -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- our messinon End  -->
+
+  <!-- what say our Experts  -->
+  <div class="tm-section testimonial-area tm-padding-sectionv4 mt-0">
+    <div class="container">
+      <div class="col-lg-12 col-md-12 col-12">
+        <div class="service-area-title">
+          <div class="tm-section experts-area-header">
+            <h2 class="title">What Our Experts Say</h2>
+            <p>
+              Lorem ipsum dolor sit amet, in quodsi vulputat pro. Ius
+              illum vocent critatem cule dicta iriure at phaedrum.
+            </p>
+          </div>
+          <a href="about-us.html" class="tm-button wow fadeInUp" data-wow-delay="0.2s"
+            style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">View More <i
+              class="fas fa-arrow-right"></i> <b style="top: 53.075px; left: 4.09998px;"></b></a>
+        </div>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-lg-4">
+          <div class="tm-testimonial">
+            <div class="tm-testimonial-topv4">
+              <div class="justify-content-center text-right">
+                <div class="tm-testimonial-contentv4">
+                  <p>
+                    “Is a day trader who made 7 Figures from forex”
+                    To truly understand price action, a trader needs to UNLEARN everything and focus on JUST price
+                    action to build a strong foundation.
+                    Easiest way to make money in trading is to read clean simple price action.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="tm-testimonial-bottomv4">
+              <img src="../img/goldTemplate-imgor-video/test-2.jpg" alt="testimonial author ">
+              <div class="tm-testimonial-bottomv4-center">
+                <h5>Raja Banks</h5>
+                <p>Founder - CEO at Dominion Markets</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="tm-testimonial">
+            <div class="tm-testimonial-topv4">
+              <div class="justify-content-center text-right">
+                <div class="tm-testimonial-contentv4">
+                  <p>
+                  <h5>He made $11 Million in Trading Profits with proof.</h5>
+                  As a trader, it’s extremely important for you to be confident AND humble.
+                  Be confident in your ability to learn anything, as long as you put in the time and effort. Be
+                  confident in your ability to execute without hesitation.
+                  At the same time, remain humble to acknowledge that you may be wrong at times and recognize your
+                  mistakes. Be it mental trading mistakes or technical.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="d-flex tm-testimonial-bottomv4">
+              <img src="../img/goldTemplate-imgor-video/ashraf.jpg" alt="testimonial author ">
+              <div class="tm-testimonial-bottomv4-center">
+                <h5>Umar Ashraf</h5>
+                <p>Founder - CEO tradeZella / Blacklinetrade</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="tm-testimonial">
+            <div class="tm-testimonial-topv4">
+              <div class="justify-content-center text-right">
+                <div class="tm-testimonial-contentv4">
+                  <p>
+                    “Self-discipline is the greatest weapon to master your trading emotions.
+                    Comparing your day 1 with someone else day 1500 is the worst trading mistake.”
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="tm-testimonial-bottomv4">
+              <img src="../img/goldTemplate-imgor-video/test-3-2.jpg" alt="testimonial author ">
+              <div class="tm-testimonial-bottomv4-center">
+                <h5>Nick Stewart</h5>
+                <p>Founder - CEO of Time To Eat Trading</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- What say our Experts   -->
+
+  <!-- Footer Start  -->
+  <footer class="footer mt-0 d-block" data-bgimage="assets/images/bg/bg-image-1.jpg" data-black-overlay="9"
+    style="background-image: url(../img/goldTemplate-imgor-video/pexels-pavel-danilyuk-5520287.jpg);">
+    <!-- Footer Widgets -->
+    <div class="footer-toparea tm-padding-section mt-0">
+      <div class="container">
+        <div class="row widgets footer-widgets">
+          <div class="col-lg-3 col-md-6 col-12">
+            <!-- Single Widget (Widget Info) -->
+            <div class="single-widget widget-info">
+              <a href="index.html" class="widget-info-logo">
+                <img src="./img/gg logo FINAL.png" alt="footer logo" style="max-width: 100%;">
+              </a>
+              <p class="logo-p">
+                Lorem ipsum dolor sit amet, consect adipisicing elit, sed do
+                eiusmod tempor inci-didunt. It is a long established will be
+                distracted by the readable making it look like readable
+                English.
+              </p>
+              <ul class="widget-info-social">
+                <li>
+                  <a href="#"><i class="fab fa-twitter"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fab fa-facebook-f"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fab fa-instagram"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fab fa-youtube"></i></a>
+                </li>
+              </ul>
+            </div>
+            <!--// Single Widget (Widget Info) -->
+          </div>
+
+          <div class="col-lg-3 col-md-6 col-12">
+            <!-- Single Widget (Widget Contact) -->
+            <div class="single-widget widget-contact">
+              <h5 class="widget-title">Contact Us</h5>
+              <ul>
+                <li>
+                  <i class="fas fa-map-marker-alt"></i>
+                  <p>Nashik Maharashtra, India</p>
+                </li>
+                <li>
+                  <i class="fas fa-envelope"></i>
+                  <p>Email: <a href="mailto:goldgladiators968@gmail.com">goldgladiators968@gmail.com</a></p>
+
+                </li>
+                <li>
+                  <i class="fas fa-phone"></i>
+                  <p><a href="tel:+917378591464">+91 - 7378591464</a></p>
+                  <p></p>
+                </li>
+                <li>
+                  <i class="fab fa-instagram"></i>
+                  <p><a href="https://www.instagram.com/gold_gladiators_official/">gold_gladiators_official</a></p>
+                  <p></p>
+                </li>
+                <li>
+                  <i class="fab fa-youtube"></i>
+                  <p><a href="#">gold gladiators </a></p>
+                  <p></p>
+                </li>
+              </ul>
+            </div>
+            <!--// Single Widget (Widget Contact) -->
+          </div>
+
+          <div class="col-lg-3 col-md-6 col-12">
+            <!-- Single Widget (Widget Blog) -->
+            <div class="single-widget widget-recentpost">
+              <h5 class="widget-title">Recent Courses</h5>
+              <ul>
+                <li>
+                  <a href="blog-details.html" class="widget-recentpost-image">
+                    <img src="https://sasna-html.vercel.app/sasna/assets/images/blog/widget/blog-thumbnail-1.png"
+                      alt="blog thumbnail">
+                  </a>
+                  <div class="widget-recentpost-content">
+                    <h6>
+                      <a href="blog-details.html">Profiles Of The Powerful</a>
+                    </h6>
+                    <span>August 01, 2018</span>
+                  </div>
+                </li>
+                <li>
+                  <a href="blog-details.html" class="widget-recentpost-image">
+                    <img src="https://sasna-html.vercel.app/sasna/assets/images/blog/widget/blog-thumbnail-2.png"
+                      alt="blog thumbnail">
+                  </a>
+                  <div class="widget-recentpost-content">
+                    <h6>
+                      <a href="blog-details.html">Profiles Of The Powerful</a>
+                    </h6>
+                    <span>August 01, 2018</span>
+                  </div>
+                </li>
+                <li>
+                  <a href="blog-details.html" class="widget-recentpost-image">
+                    <img src="https://sasna-html.vercel.app/sasna/assets/images/blog/widget/blog-thumbnail-3.png"
+                      alt="blog thumbnail">
+                  </a>
+                  <div class="widget-recentpost-content">
+                    <h6>
+                      <a href="blog-details.html">Profiles Of The Powerful</a>
+                    </h6>
+                    <span>August 01, 2018</span>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <!--// Single Widget (Widget Blog) -->
+          </div>
+
+          <div class="col-lg-3 col-md-6 col-12">
+            <!-- Single Widget (Widget Newsletter) -->
+            <div class="single-widget widget-newsletter">
+              <h5 class="widget-title">Get In Touch</h5>
+              <p>
+                Get Business news, tip and solutions to your problems from
+                our experts.
+              </p>
+              <form id="tm-mailchimp-form" class="widget-newsletter-form" novalidate="true">
+                <input id="mc-email" type="text" placeholder="Enter email address">
+                <button id="mc-submit" type="submit" class="tm-button">
+                  Subscribe Now <b></b>
+                </button>
+              </form>
+              <!-- Mailchimp Alerts -->
+              <div class="tm-mailchimp-alerts">
+                <div class="tm-mailchimp-submitting"></div>
+                <div class="mailchimp-success"></div>
+                <div class="tm-mailchimp-error"></div>
+              </div>
+              <!--// Mailchimp Alerts -->
+            </div>
+            <!--// Single Widget (Widget Newsletter) -->
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--// Footer Widgets -->
+
+    <!-- Footer -->
+    <div class="footer-bottomarea">
+      <div class="container">
+        <p class="footer-copyright">
+          © 2018. Designed by <a href="#">Anurag Raut</a>
+        </p>
+      </div>
+    </div>
+    <!--// Footer -->
+  </footer>
+  <!-- Footer End  -->
+  <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+  <script src="./js/script.js"></script>
+</body>
+
+</html>
+<style>
+  /* what say our exerts  */
+
+  .experts-area-header h2,
+  .experts-area-header>p {
+    color: #444444;
+  }
+
+  .testimonial-area {
+    position: relative;
+  }
+
+  /* .tm-padding-sectionv4 {
+    padding-top: 90px;
+    padding-bottom: 100px;
+} */
+
+  .testimonial-area::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    /* background-image: url(https://sasna-html.vercel.app/sasna/assets/images/icons/bg-map-shapes.png); */
+    background-repeat: no-repeat;
+    background-position: center left;
+    opacity: 0.6;
+  }
+
+
+
+  .tm-testimonial-topv4 {
+    position: relative;
+    /* background: #F5F0E6; */
+    background-color: #F5F0E6;
+    box-shadow: -4px 4px 20px rgba(245, 240, 230, 0.7);
+    padding: 66px 30px 40px 30px;
+    position: relative;
+    background-position: 95% 90%;
+    background-repeat: no-repeat;
+    /* background-image: url(https://sasna-html.vercel.app/sasna/assets/images/testimonial/testimonial.svg); */
+  }
+
+  .tm-testimonial-topv4::after {
+    position: absolute;
+    content: "";
+    top: 100%;
+    left: 60%;
+    width: 0;
+    height: 0;
+    transform: rotate(180deg);
+    border-left: 20px solid transparent;
+    /* Adjust size of the triangle */
+    border-bottom: 20px solid #F5F0E6;
+    /* Adjust the color of the triangle */
+  }
+
+
+  .tm-testimonial-bottomv4 {
+    margin-top: 25px;
+    margin-bottom: -6px;
+    padding-left: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .tm-testimonial-bottomv4-center p {
+    padding: 0 83px;
+  }
+
+  .tm-testimonial-bottomv4 img {
+    height: 100px;
+    width: 100px;
+    margin-right: 10px;
+    border-radius: 50%;
+  }
+
+  /* what say expert end  */
+</style>
+<style>
+  #order {
+    text-decoration: underline;
+    display: block;
+    width: 100px;
+    margin: 0 auto;
+    border: 1px solid #fff;
+    padding: 10px;
+    margin-top: 15px;
+    border-radius: 2px;
+    color: #fff;
+    text-shadow: -3px 3px 1px rgba(0, 0, 0, 0.5);
+  }
+
+  #order:hover {
+    box-shadow: inset 0px 0px 15px rgba(0, 0, 0, 0.75);
+    text-shadow: -3px 3px 1px rgba(0, 0, 0, 0.75);
+  }
+
+  #bar {
+    background-color: #37375A;
+    height: 15px;
+    position: absolute;
+    width: 100%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+  }
+
+  .puceImg {
+    z-index: 1;
+    border: 1px solid #37375A;
+  }
+
+  #puceProfile {
+    background: url(../img/analysis.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+  }
+
+  #puceHtml {
+    background: url(https://renseign.com/img/story/html.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+  }
+
+  #puceCss {
+    background: url(../img/Shubham-img/2149357542.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+  }
+
+  #pucePhp {
+    background: url(../img/Shubham-img/24243577_sl_033020_29450_24.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+  }
+
+  #puceJs {
+    background: url(https://renseign.com/img/story/js.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+  }
+
+  #puceCs {
+    background: url(https://renseign.com/img/story/cs.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+  }
+
+  #puceNext {
+    background: url(https://renseign.com/img/story/next.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+  }
+
+  #pucePt2 {
+    background: url(https://renseign.com/img/story/pt2.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+  }
+
+  #puceEnvr {
+    background: url(https://renseign.com/img/story/envr.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+  }
+
+  #puce4t5 {
+    background: url(../img/footer-img.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+  }
+
+  .rotateOne {
+    height: 18px;
+    -moz-transform: rotate(25.8deg);
+    -o-transform: rotate(25.8deg);
+    -ms-transform: rotate(25.8deg);
+    -webkit-transform: rotate(25.8deg);
+    background-color: transparent;
+    position: absolute;
+    width: 100%
+  }
+
+  .rotateTwo {
+    height: 18px;
+    -moz-transform: rotate(-205.8deg);
+    -o-transform: rotate(-205.8deg);
+    -ms-transform: rotate(-205.8deg);
+    -webkit-transform: rotate(-205.8deg);
+    background-color: transparent;
+    position: absolute;
+    width: 100%
+  }
+
+  .rotateThree {
+    height: 18px;
+    -moz-transform: rotate(-312.3deg);
+    -o-transform: rotate(-312.3deg);
+    -ms-transform: rotate(-312.3deg);
+    -webkit-transform: rotate(-312.3deg);
+    background-color: transparent;
+    position: absolute;
+  }
+
+  @media (max-width:576px){
+    .timeline{
+      width: 300px;
+    }
+    #bar{
+      bottom: 50px;
+    }
+  }
+
+  div.timeline {
+    width: 600px;
+    height: 1250px;
+    margin: 0 auto;
+    position: relative;
+    color: #603f26;
+    /* text-shadow: -3px 3px 1px rgba(0, 0, 0, 0.5); */
+  }
+
+  div.timeline a {
+    color: #fff;
+    text-decoration: underline;
+  }
+
+  div.fakePuce {
+    border-radius: 50em;
+    position: absolute;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+  }
+
+  img.puce {
+    position: absolute;
+  }
+
+  div.timeline p {
+    position: absolute;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    display: inline-block;
+  }
+
+  .full {
+    width: 100%;
+  }
+
+  img.puceTwo {
+    top: 250px;
+  }
+
+  img.puceThree {
+    top: 500px;
+  }
+
+  img.puceFour {
+    top: 750px;
+  }
+
+  img.puceFive {
+    top: 1000px;
+  }
+
+  img.puceSix {
+    top: 1250px;
+  }
+
+  img.puceSeven {
+    top: 1500px;
+  }
+
+  img.puceHeight {
+    top: 1750px;
+  }
+
+  img.puceNine {
+    top: 2000px;
+  }
+
+  img.puceTen {
+    bottom: 0px;
+  }
+
+  div.timeline p.descOne {
+    color: #603f26;
+    top: 35px;
+  }
+
+  div.timeline p.descTwo {
+    top: 200px;
+    left: 200px;
+    padding: 10px;
+  }
+
+  div.timeline p.descThree {
+    position: relative;
+    left: 73%;
+    padding: 10px;
+    width: 400px;
+    top: 450px;
+  }
+
+  div.timeline p.descFour {
+    top: 705px;
+    left: 200px;
+    padding: 10px;
+  }
+
+  div.timeline p.descFive {
+    top: 775px;
+    position: relative;
+    left: 73%;
+    padding: 10px;
+    width: 400px;
+  }
+
+  div.timeline p.descSix {
+    top: 1270px;
+  }
+
+  div.timeline p.descSeven {
+    top: 1515px;
+  }
+
+  div.timeline p.descHeight {
+    top: 1760px;
+  }
+
+  div.timeline p.descNine {
+    top: 2005px;
+  }
+
+
+  .bounce {
+    -webkit-animation-name: bounce;
+    animation-name: bounce;
+    -webkit-transform-origin: center bottom;
+    transform-origin: center bottom;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+  }
+
+  @-webkit-keyframes bounce {
+
+    0%,
+    20%,
+    53%,
+    80%,
+    100% {
+      -webkit-animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+      animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+    }
+
+    40%,
+    43% {
+      -webkit-animation-timing-function: cubic-bezier(0.755, 0.050, 0.855, 0.060);
+      animation-timing-function: cubic-bezier(0.755, 0.050, 0.855, 0.060);
+      -webkit-transform: translate3d(0, -20px, 0);
+      transform: translate3d(0, -20px, 0);
+    }
+
+    70% {
+      -webkit-animation-timing-function: cubic-bezier(0.755, 0.050, 0.855, 0.060);
+      animation-timing-function: cubic-bezier(0.755, 0.050, 0.855, 0.060);
+      -webkit-transform: translate3d(0, -15px, 0);
+      transform: translate3d(0, -15px, 0);
+    }
+
+    90% {
+      -webkit-transform: translate3d(0, -4px, 0);
+      transform: translate3d(0, -4px, 0);
+    }
+  }
+
+  @keyframes bounce {
+
+    0%,
+    20%,
+    53%,
+    80%,
+    100% {
+      -webkit-animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+      animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+    }
+
+    40%,
+    43% {
+      -webkit-animation-timing-function: cubic-bezier(0.755, 0.050, 0.855, 0.060);
+      animation-timing-function: cubic-bezier(0.755, 0.050, 0.855, 0.060);
+      -webkit-transform: translate3d(0, -20px, 0);
+      transform: translate3d(0, -20px, 0);
+    }
+
+    70% {
+      -webkit-animation-timing-function: cubic-bezier(0.755, 0.050, 0.855, 0.060);
+      animation-timing-function: cubic-bezier(0.755, 0.050, 0.855, 0.060);
+      -webkit-transform: translate3d(0, -15px, 0);
+      transform: translate3d(0, -15px, 0);
+    }
+
+    90% {
+      -webkit-transform: translate3d(0, -4px, 0);
+      transform: translate3d(0, -4px, 0);
+    }
+  }
+</style>
+<script>
+  var s = skrollr.init({
+    smoothScrolling: true,
+    mobileDeceleration: 0.004
+  });
+
+  delayAnimation();
+
+  function delayAnimation() {
+    var animatedEl = document.getElementById('bounce');
+    animatedEl.className = '';
+    setTimeout(function () {
+      animatedEl.className = 'bounce'
+      setTimeout(delayAnimation, 1000)
+    }, 1500)
+  }
+</script>

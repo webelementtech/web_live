@@ -1,0 +1,181 @@
+/* @media (min-width: 1400px) {
+    .container {
+        max-width: 1200px;
+    }
+} */
+
+
+/* @media (min-width: 1200px) {
+    .container {
+        max-width: 1200px;
+    }
+} */
+
+
+
+
+
+@media only screen and (min-width:1200px){
+    .container{
+        max-width: 1200px;
+    }
+}
+
+@media only screen and (max-width:992px){
+
+}
+
+
+
+
+/* Navbar Responsive  */
+@media (max-width: 992px) {
+    .navbar-nav {
+        text-align: center;
+        flex-direction: column;
+    }
+    
+    .navbar-nav .nav-item {
+        margin: 10px 0;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+/* @media (max-width: 576px) {
+    #carouselExampleFade{
+        padding-top: 100px;
+        background-color: aqua;
+    }
+
+    .contact-box {
+        bottom: -25%;
+        width: 100%;
+    }
+
+    .img-1, .img-2, .img-3 {
+        height: 500px;
+        width: 500px;
+        top: 0%;
+        right: 5%;
+
+      }
+
+      .carousel-section::after{
+        content: '';
+        background-color: #007bff;
+        height: 10%;
+        width: 5%;
+        position: absolute;
+        bottom: 20%;
+        right: 30%;
+        z-index: 6;
+        border-radius: 35% 40% 50% 70%;
+        opacity: 0.5;
+      }
+
+      .carousel-caption {
+        position: absolute;
+        top: 25%;
+        left: 0;
+        transform:translateX(5%);
+        text-align: left;
+        width: 100%;
+        color: #333333;
+      }
+
+      .carousel-caption h1 {
+        font-size: 3rem;
+        color: white; 
+      }
+} */
+
+
+@media only screen and (max-width: 767px) {
+    .contact-box {
+        right: auto;
+        width: 100%;
+    }
+
+    .contact-box div {
+        margin-right: 1rem;
+    }
+}
+
+
+@media only screen and (max-width: 767px) {
+    .about-contentv4 {
+        padding-top: 150px;
+    }
+}
+
+
+@media only screen and (max-width: 767px) {
+    .about-content {
+        padding-right: 0;
+    }
+}
+
+
+@media only screen and (max-width: 767px) {
+    .about-content .title {
+        font-size: 32px;
+        line-height: 42px;
+    }
+}
+
+
+@media only screen and (max-width: 767px) {
+    .about-sub-textv4 .about-text {
+        font-size: 18px;
+        line-height: 28px;
+        font-family: "Roboto", sans-serif;
+        margin: 0 auto auto auto;
+    }
+}
+
+
+@media only screen and (max-width: 767px) {
+    .tm-padding-sectionv4 {
+        padding-top: 60px;
+        padding-bottom: 80px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .services-area-header {
+        display: block;
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .service-area-title {
+      
+        display: flex;
+       
+        flex-direction: column;
+        
+        justify-content: left;
+       
+        align-items: flex-start;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .tm-title-header {
+        font-size: 32px;
+    }
+}
+
+
+
+

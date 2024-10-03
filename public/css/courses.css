@@ -1,0 +1,601 @@
+   /* 
+.hero-section{
+    height: 300px;
+    background-size: cover;
+    background-image: url(../images/contact-banner.jpg);
+}
+.main-section{
+    position: relative;
+    top: 100px;
+    padding-left: 100px;
+} */
+
+
+.m-Section {
+    padding-top: 15px;
+    background-image: url(../images/pexels-codioful-7130471.jpg);
+    background-size: cover;
+}
+
+.m-Section p {
+    /* text-align: center; */
+    font-size: 18px;
+    color: rgba(246, 0, 0, 0.689);
+}
+
+.Forex-F {
+    /* display: flex; */
+    /* left: 1150px; */
+    top: 80px;
+    position: absolute;
+    text-align: center;
+    font-size: 150px;
+    width: 150px;
+    font-weight: 900;
+    color: #897a7a59;
+    /* writing-mode: vertical-rl; */
+}
+
+.ff {
+    /* opacity: 1;
+    transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    transform-style: preserve-3d; */
+    background: linear-gradient(to right, #af7eff71, #1c173161);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    /* top: -70px; */
+    position: relative;
+}
+
+.hero-bg-second-pattern {
+    filter: blur(170px);
+    background-color: #af7eff;
+    border-radius: 100%;
+    min-width: 300px;
+    min-height: 300px;
+    position: absolute;
+    /* top: -15%; */
+    bottom: auto;
+    left: auto;
+    right: 0px;
+}
+
+/* .hero-bg-first-pattern.pricing-circle {
+    background-color: rgba(199, 122, 255, .72);
+}
+.hero-bg-first-pattern {
+    filter: blur(170px);
+    background-color: #7c1b56;
+    border-radius: 100%;
+    min-width: 350px;
+    min-height: 350px;
+    position: absolute;
+    bottom: -25%;
+    right: 8%;
+} */
+.hero-main {
+    height: 700px;
+    justify-content: center;
+    background-color: black;
+    /* background-image: url(../images/back-banner.jpg); */
+    background-size: cover;
+    border: 2px solid;
+    margin: 20px;
+    border-radius: 50px;
+    padding: 10px;
+    display: flex;
+}
+
+.hero-main article {
+    align-items: center;
+    font-size: 50px;
+    font-weight: 900;
+}
+
+.hero-main img,
+p {
+    /* padding: 20px; */
+    /* width: 400px; */
+}
+
+
+/* --------------------------------------------------------------------------------- */
+:root {
+    --primary: #2175f5;
+}
+
+
+#Product-Card {
+    background-image: url(../img/pexels-codioful-7130471.jpg);
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    /* background-color: #efefef; */
+}
+
+.containerx {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    overflow: hidden;
+}
+
+.cardx {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 860px;
+}
+
+.shoeBackground {
+    background-color: #c5a06765;
+    position: relative;
+    width: 50%;
+    height: 475px;
+    box-shadow: -15px 0 35px rgba(0, 0, 0, 0.1),
+        0 -15px 35px rgba(0, 0, 0, 0.1),
+        0 15px 35px rgba(0, 0, 0, 0.1);
+    transition: .5s;
+}
+
+.gradients {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+
+.gradient {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    z-index: -2;
+}
+
+.first {
+    z-index: 0;
+    animation: 1s width ease;
+}
+
+@keyframes width {
+    from {
+        width: 0%;
+    }
+
+    to {
+        width: 100%;
+    }
+}
+
+.second {
+    z-index: -1;
+}
+
+.gradient[color="blue"] {
+    background-image: linear-gradient(45deg, #c5a067, #603f26);
+}
+
+.gradient[color="red"] {
+    background-image: linear-gradient(45deg, #282727, #545454);
+}
+
+/* .gradient[color="blue"] {
+    background-image: linear-gradient(45deg, #00919f, #1cb9c8);
+}
+
+.gradient[color="red"] {
+    background-image: linear-gradient(45deg, #d62926, #ee625f);
+}
+
+.gradient[color="green"] {
+    background-image: linear-gradient(45deg, #11998e, #1ce669);
+}
+
+.gradient[color="orange"] {
+    background-image: linear-gradient(45deg, #fc4a1a, #f7b733);
+}
+
+.gradient[color="black"] {
+    background-image: linear-gradient(45deg, #111, #666);
+} */
+
+.logo {
+    position: absolute;
+    width: 100px;
+    left: 20px;
+    top: 20px;
+}
+
+.share {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    background-color: #fff;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 1.3rem;
+    text-decoration: none;
+    color: var(--primary);
+    transition: .5s;
+}
+
+.share:hover {
+    transform: scale(1.1);
+}
+
+.share i {
+    line-height: 50px;
+}
+
+.basic {
+    position: absolute;
+    top: 85px;
+    left: 15px;
+    font-size: 11rem;
+    text-transform: uppercase;
+    line-height: .9;
+    color: #c5a067;
+    opacity: 1;
+}
+
+.shoe {
+    position: absolute;
+    width: 140%;
+    opacity: 0;
+    bottom: 0;
+    right: 0;
+    transform: rotate(-20deg);
+    transition: .5s;
+}
+
+.shoe.show {
+    opacity: 1;
+}
+
+.info {
+    width: 50%;
+    background-color: #fff;
+    z-index: 1;
+    padding: 35px 40px;
+    box-shadow: 15px 0 35px rgba(0, 0, 0, 0.1),
+        0 -15px 35px rgba(0, 0, 0, 0.1),
+        0 15px 35px rgba(0, 0, 0, 0.1);
+}
+
+.shoeName {
+    padding: 0 0 10px 0;
+}
+
+.shoeName div {
+    display: flex;
+    align-items: center;
+}
+
+.shoeName div .big {
+    margin-right: 10px;
+    font-size: 2rem;
+    color: #333;
+    line-height: 1;
+}
+
+.shoeName div .new {
+    background-color: #c5a067;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 3px 10px;
+    border-radius: 5px;
+    transition: .5s;
+}
+
+.shoeName .small {
+    font-weight: 500;
+    color: #444;
+    margin-top: 3px;
+    text-transform: capitalize;
+}
+
+.shoeName,
+.description,
+.color-container,
+.size-container {
+    border-bottom: 1px solid #dadada;
+}
+
+.description {
+    padding: 10px 0;
+}
+
+.title {
+    color: #3a3a3a;
+    font-weight: 600;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+}
+
+.text {
+    color: #555;
+    font-size: 17px;
+}
+
+.color-container {
+    padding: 10px 0;
+}
+
+.colors {
+    padding: 8px 0;
+    display: flex;
+    align-items: center;
+}
+
+.color {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    margin: 0 10px;
+    border: 5px solid;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.color[color="blue"] {
+    background-color: #2175f5;
+    border-color: #2175f5;
+}
+
+.color[color="red"] {
+    background-color: #f84848;
+    border-color: #f84848;
+}
+
+.color[color="green"] {
+    background-color: #29b864;
+    border-color: #29b864;
+}
+
+.color[color="orange"] {
+    background-color: #ff5521;
+    border-color: #ff5521;
+}
+
+.color[color="black"] {
+    background-color: #444;
+    border-color: #444;
+}
+
+.color.active {
+    border-color: #fff;
+    box-shadow: 0 0 10px .5px rgba(0, 0, 0, 0.2);
+    transform: scale(1.1);
+}
+
+.size-container {
+    padding: 10px 0;
+    margin-bottom: 10px;
+}
+
+.sizes {
+    padding: 8px 0;
+    display: flex;
+    align-items: center;
+}
+
+.size {
+    width: 40px;
+    height: 40px;
+    border-radius: 6px;
+    background-color: #eee;
+    margin: 0 10px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 1.1rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.size.active {
+    background-color: var(--primary);
+    color: #fff;
+    transition: .5s;
+}
+
+.buy-price {
+    padding-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* .price {
+    color: #333;
+    display: flex;
+    align-items: flex-start;
+} */
+/* 
+.price h1 {
+    font-size: 2.1rem;
+    font-weight: 600;
+    line-height: 1;
+}
+
+.price i {
+    font-size: 1.4rem;
+    margin-right: 1px;
+} */
+
+.buy {
+    padding: .7rem 1rem;
+    background-color: #c5a067;
+    text-decoration: none;
+    color: #603f26;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 500;
+    font-size: 1.1rem;
+    transition: .5s;
+}
+
+.buy:hover {
+    color: #c5a067;
+    background-color: #603f26;
+    transform: scale(1.05);
+}
+
+.buy i {
+    margin-right: 2px;
+}
+
+@media (max-width: 1070px) {
+    .shoe {
+        width: 135%;
+    }
+}
+
+@media (max-width: 1000px) {
+    .card {
+        flex-direction: column;
+        width: 100%;
+        box-shadow: 0 0 35px 1px rgba(0, 0, 0, 0.2);
+    }
+
+    .card>div {
+        width: 100%;
+        box-shadow: none;
+    }
+
+    .shoe {
+        width: 100%;
+        transform: rotate(-5deg) translateY(-50%);
+        top: 55%;
+        right: 2%;
+    }
+
+    .basic {
+        top: 20%;
+        left: 5%;
+    }
+}
+
+@media (max-width: 600px) {
+    .share {
+        width: 40px;
+        height: 40px;
+    }
+
+    .share i {
+        font-size: 1rem;
+        line-height: 40px;
+    }
+
+    .logo {
+        width: 70px;
+    }
+}
+
+@media(max-width: 576px){
+    .info{
+        /* height: 500px; */
+        width: 400px;
+    }
+    .shoeBackground{
+        width: 400px;
+    }
+}
+
+@media (max-width: 490px) {
+    .basic {
+        font-size: 7rem;
+    }
+
+    .shoeName div .big {
+        font-size: 1.3rem;
+    }
+
+    .small {
+        font-size: 1rem;
+    }
+
+    .new {
+        padding: 2px 6px;
+        font-size: .9rem;
+    }
+
+    .title {
+        font-size: .9rem;
+    }
+
+    .text {
+        font-size: .8rem;
+    }
+
+    .buy {
+        padding: .5rem .8rem;
+        font-size: .8rem;
+    }
+
+    /* .price h1 {
+        font-size: 1.5rem;
+    }
+
+    .price i {
+        font-size: .9rem;
+    } */
+
+    .size {
+        width: 30px;
+        height: 30px;
+        margin: 0 8px;
+        font-size: .9rem;
+        line-height: 30px;
+    }
+
+    .color {
+        margin: 0 6px;
+        width: 0 20px;
+        width: 20px;
+        height: 20px;
+        border-width: 4px;
+    }
+
+    .share {
+        width: 35px;
+        height: 35px;
+        top: 10px;
+        right: 10px;
+    }
+
+    .share i {
+        font-size: .8rem;
+        line-height: 35px;
+    }
+
+    .logo {
+        width: 60px;
+        top: 10px;
+        left: 10px;
+    }
+    
+    .info {
+        padding: 20px;
+    }
+}
+
+@media (max-width: 400px) {
+    .buy i {
+        display: none;
+    }
+
+    .container {
+        padding: 20px;
+    }
+}
